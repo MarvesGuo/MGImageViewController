@@ -151,8 +151,8 @@
 			isa = PBXGroup;
 			children = (
 				24405DAA1CA51B83005D2BC0 /* AppDelegate */,
-				24405DAE1CA51B83005D2BC0 /* ViewController */,
 				24405DB31CA51C28005D2BC0 /* SDKs */,
+				24405DAE1CA51B83005D2BC0 /* ViewController */,
 				24405D801CA5146D005D2BC0 /* Main.storyboard */,
 				24405D771CA5146D005D2BC0 /* Supporting Files */,
 			);
@@ -202,6 +202,8 @@
 			children = (
 				24405DAF1CA51B83005D2BC0 /* ViewController.h */,
 				24405DB01CA51B83005D2BC0 /* ViewController.m */,
+				24A2ED161CAA609B00FDE391 /* Model */,
+				24A2ED171CAA60A900FDE391 /* View */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -260,6 +262,20 @@
 				24405DD61CA51C28005D2BC0 /* UIView+WebCacheOperation.m */,
 			);
 			path = SDWebImage;
+			sourceTree = "<group>";
+		};
+		24A2ED161CAA609B00FDE391 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		24A2ED171CAA60A900FDE391 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -634,6 +650,7 @@
 				24405DA31CA5146D005D2BC0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		24405DA41CA5146D005D2BC0 /* Build configuration list for PBXNativeTarget "MGImageViewControllerTests" */ = {
 			isa = XCConfigurationList;
@@ -642,6 +659,7 @@
 				24405DA61CA5146D005D2BC0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		24405DA71CA5146D005D2BC0 /* Build configuration list for PBXNativeTarget "MGImageViewControllerUITests" */ = {
 			isa = XCConfigurationList;
@@ -650,6 +668,7 @@
 				24405DA91CA5146D005D2BC0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
