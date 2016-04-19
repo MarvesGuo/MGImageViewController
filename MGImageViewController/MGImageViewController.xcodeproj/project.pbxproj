@@ -34,6 +34,8 @@
 		24453B8D1CC48411005829AA /* MGImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24453B8C1CC48411005829AA /* MGImageViewController.m */; };
 		24453B911CC484D6005829AA /* MGImageItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 24453B901CC484D6005829AA /* MGImageItem.m */; };
 		24453B941CC4852A005829AA /* MGImageDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 24453B931CC4852A005829AA /* MGImageDownloader.m */; };
+		24453B981CC48A9C005829AA /* ImageListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 24453B961CC48A9C005829AA /* ImageListCell.m */; };
+		24453B991CC48A9C005829AA /* ImageListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 24453B971CC48A9C005829AA /* ImageListCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -109,6 +111,9 @@
 		24453B901CC484D6005829AA /* MGImageItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGImageItem.m; sourceTree = "<group>"; };
 		24453B921CC4852A005829AA /* MGImageDownloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGImageDownloader.h; sourceTree = "<group>"; };
 		24453B931CC4852A005829AA /* MGImageDownloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGImageDownloader.m; sourceTree = "<group>"; };
+		24453B951CC48A9C005829AA /* ImageListCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageListCell.h; sourceTree = "<group>"; };
+		24453B961CC48A9C005829AA /* ImageListCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageListCell.m; sourceTree = "<group>"; };
+		24453B971CC48A9C005829AA /* ImageListCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ImageListCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -297,6 +302,9 @@
 		24A2ED171CAA60A900FDE391 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				24453B951CC48A9C005829AA /* ImageListCell.h */,
+				24453B961CC48A9C005829AA /* ImageListCell.m */,
+				24453B971CC48A9C005829AA /* ImageListCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -405,6 +413,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				24405D871CA5146D005D2BC0 /* LaunchScreen.storyboard in Resources */,
+				24453B991CC48A9C005829AA /* ImageListCell.xib in Resources */,
 				24405D841CA5146D005D2BC0 /* Assets.xcassets in Resources */,
 				24405D821CA5146D005D2BC0 /* Main.storyboard in Resources */,
 			);
@@ -437,6 +446,7 @@
 				24405DDC1CA51C28005D2BC0 /* SDWebImageDownloader.m in Sources */,
 				24405DE31CA51C28005D2BC0 /* UIImage+WebP.m in Sources */,
 				24405DE61CA51C28005D2BC0 /* UIView+WebCacheOperation.m in Sources */,
+				24453B981CC48A9C005829AA /* ImageListCell.m in Sources */,
 				24405DD91CA51C28005D2BC0 /* SDImageCache.m in Sources */,
 				24405DB21CA51B83005D2BC0 /* ViewController.m in Sources */,
 				24405DD71CA51C28005D2BC0 /* MKAnnotationView+WebCache.m in Sources */,
